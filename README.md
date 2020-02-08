@@ -9,3 +9,6 @@ Uygulamanın ilk komutu `nick` komutudur. Bu komut yeni nick oluşturmanızı sa
 ## 2- Clear Komutu
 Bu komut konsolda var olan yazıların hepsini siler.
 > clear
+
+## 3- Style Komutu
+Bu komut ise `style Hello World!` şeklinde kullanılır. Bu komut yazınızı şekil şukul yazar.
