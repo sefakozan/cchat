@@ -1,2 +1,2 @@
 # CChat
-.NET Core Console Chat Application using Firebase
+##Console Chat Application
