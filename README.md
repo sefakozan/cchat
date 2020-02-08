@@ -1,5 +1,6 @@
 # CChat (Console Chat Application)
 > CChat, birden çok kullanıcının aynı servere bağlanıp Firebase üzerinden konuştuğu basit bir mesajlaşma uygulamasıdır. CChat uygulamasının birçok özelliği vardır.
+
 > **.NET Core Console Chat Application using Firebase**
 
 ## CChat Komutları
@@ -17,12 +18,29 @@
 ### Style Komutu
 Bu komut ise `style *msj*` şeklinde kullanılır. Bu komutu yazdığınızda yazınızı şekil şukul yazar.
 
+
+
+
+
+
+![alt yazı][resim]
+  
+
+[resim]: https://i.hizliresim.com/492WQ0.png
           
+
+
+
+
+
 
 ### Check Komutu
 `check *sayi*` komutu konsola yazdığınız bir sayıyı asal olup olmadığını kontrol eder.
 
-              
+![alt yazı][fotograf]
+
+
+[fotograf]: https://i.hizliresim.com/gbzvR2.png    
 
 ### Play Komutu
 `play` komutu sistemde var olan ses kayıtlarını çalar. Bazı play komutları;
@@ -45,9 +63,19 @@ Bu komutu kullandığınızda serverde bulunan bütün kişilerde aynı url aç�
 Bu komut konsola `matrix` yazıldığında serverde olan bütün kullanıcılarda matrix açılır. Kullanıcıların matrix'i kapatması için `Enter` tuşuna basması gerekir.
 > matrix
 
+![alt yazı][resim2]
+  
+
+[resim2]: https://i.hizliresim.com/nyV9ag.png
+
+
 ### Color Komutu
 `color **metin**` color yazısından sonra gelen yazıyı(metin) renkli yazar.
 > color Hello World!..
+> 
+![alt yazı][resim3]
+
+[resim3]: https://i.hizliresim.com/zyvO1D.png
 
 ### Shake Komutu
  `shake` komutu serverde olan kişilerin hepsinin konsolu sallanır.
