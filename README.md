@@ -1,2 +1,1 @@
-# CChat
-## Console Chat Application
+# CChat (Console Chat Application)
