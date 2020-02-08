@@ -17,15 +17,15 @@ Bu komut ise konsola yazdığınız bir sayıyı asal olup olmadığını kontro
 
 ## 5- Play Komutu
 Bu komut ise sistemde var olan ses kayıtlarını çalar. Bazı play komutları;
-> play 0, Yürütülen ses kaydını kapatır.
-> play 1
-> play 2
-> play 3
-> play 4
-> play 5
-> play 6
-> play 7
-> play 8
+> -play 0, Yürütülen ses kaydını kapatır.
+> -play 1
+> -play 2
+> -play 3
+> -play 4
+> -play 5
+> -play 6
+> -play 7
+> -play 8
 
 
 
