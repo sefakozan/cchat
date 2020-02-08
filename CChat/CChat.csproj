@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CChat</RootNamespace>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+    <AssemblyName>CChat</AssemblyName>
+    <StartupObject>CChat.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="SystemTray.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="AppIcon.ico" />
+    <None Remove="audio\Beyin bedava.mp3" />
+    <None Remove="audio\closed-hat-trimmed.wav" />
+    <None Remove="audio\crash-trimmed.wav" />
+    <None Remove="audio\kick-trimmed.wav" />
+    <None Remove="audio\Komik-15-Tatil-Parodi.mp3" />
+    <None Remove="audio\Komik-Bom-Bom.mp3" />
+    <None Remove="audio\Komik-Uyan-Okullar-Acildi-Parodi.mp3" />
+    <None Remove="audio\Nereye Sıçacaklar %28 Remix %29 - Educatedear.mp3" />
+    <None Remove="audio\open-hat-trimmed.wav" />
+    <None Remove="audio\receb ivedikden kulak cinlamasi.mp3" />
+    <None Remove="audio\sezai-ogul.mp3" />
+    <None Remove="audio\snare-trimmed.wav" />
+    <None Remove="audio\Taumata.mp3" />
+    <None Remove="Settings.StyleCop" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="AppIcon.ico" />
+    <EmbeddedResource Include="audio\Beyin bedava.mp3" />
+    <EmbeddedResource Include="audio\closed-hat-trimmed.wav" />
+    <EmbeddedResource Include="audio\crash-trimmed.wav" />
+    <EmbeddedResource Include="audio\kick-trimmed.wav" />
+    <EmbeddedResource Include="audio\Komik-15-Tatil-Parodi.mp3" />
+    <EmbeddedResource Include="audio\Komik-Bom-Bom.mp3" />
+    <EmbeddedResource Include="audio\Komik-Uyan-Okullar-Acildi-Parodi.mp3" />
+    <EmbeddedResource Include="audio\Nereye Sıçacaklar ( Remix ) - Educatedear.mp3" />
+    <EmbeddedResource Include="audio\open-hat-trimmed.wav" />
+    <EmbeddedResource Include="audio\receb ivedikden kulak cinlamasi.mp3" />
+    <EmbeddedResource Include="audio\sezai-ogul.mp3" />
+    <EmbeddedResource Include="audio\snare-trimmed.wav" />
+    <EmbeddedResource Include="audio\Taumata.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FIGlet.Net" Version="1.1.1" />
+    <PackageReference Include="FirebaseDatabase.net" Version="4.0.4" />
+    <PackageReference Include="NAudio" Version="1.10.0" />
+  </ItemGroup>
+
+</Project>
