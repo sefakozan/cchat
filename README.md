@@ -34,4 +34,17 @@ Bu komut ise sistemde var olan ses kayıtlarını çalar. Bazı play komutları;
 > - play 8
 
 
+## 6- Open Komutu
+Bu komut ise `open <url>` şeklinde kullanılır. Bu komutu kullandığınızda serverde bulunan bütün kişilerde aynı url açılır.
+> open https://github.com/SefaKozan
 
+## 7- Matrix Komutu
+Bu komut konsola `matrix` yazıldığında server olan bütün kullanıcılarda matrix açılır.
+> matrix
+
+## 8- Color Komutu
+Bu komut ise `color **metin**` color yazısından sonra gelen yazıyı rengarenk konsola yazar.
+> color Hello World!..
+
+## 9- Shake Komutu
+Bu komut ise `shake` serverde olan kişilerin hepsinin konsolu sallanır.
