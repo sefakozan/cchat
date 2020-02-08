@@ -2,25 +2,20 @@
 > CChat, birden çok kullanıcının aynı servere bağlanıp Firebase üzerinden konuştuğu basit bir mesajlaşma uygulamasıdır. CChat uygulamasının birçok özelliği vardır.
 
 > **.NET Core Console Chat Application using Firebase**
-
 ## CChat Komutları
 
-### Nick Komutu
+- ### Nick Komutu
 `nick *yeninick*` komutu nick'inizi değiştirmenizi sağlar.
 
         
 
-### Clear Komutu
+- ### Clear Komutu
 `clear` komutu konsolda var olan yazıların hepsini tüm kullanıcılarda siler.
 
            
  
-### Style Komutu
+- ### Style Komutu
 Bu komut ise `style *msj*` şeklinde kullanılır. Bu komutu yazdığınızda yazınızı şekil şukul yazar.
-
-
-
-
 
 
 ![alt yazı][resim]
@@ -29,12 +24,7 @@ Bu komut ise `style *msj*` şeklinde kullanılır. Bu komutu yazdığınızda ya
 [resim]: https://i.hizliresim.com/492WQ0.png
           
 
-
-
-
-
-
-### Check Komutu
+- ### Check Komutu
 `check *sayi*` komutu konsola yazdığınız bir sayıyı asal olup olmadığını kontrol eder.
 
 ![alt yazı][fotograf]
@@ -42,7 +32,7 @@ Bu komut ise `style *msj*` şeklinde kullanılır. Bu komutu yazdığınızda ya
 
 [fotograf]: https://i.hizliresim.com/gbzvR2.png    
 
-### Play Komutu
+- ### Play Komutu
 `play` komutu sistemde var olan ses kayıtlarını çalar. Bazı play komutları;
 > - play 0, Yürütülen ses kaydını kapatır.
 > - play 1
@@ -55,11 +45,11 @@ Bu komut ise `style *msj*` şeklinde kullanılır. Bu komutu yazdığınızda ya
 > - play 8
 
 
-### Open Komutu
+- ### Open Komutu
 Bu komutu kullandığınızda serverde bulunan bütün kişilerde aynı url açılır.
 > open github.com/SefaKozan
 
-### Matrix Komutu
+- ### Matrix Komutu
 Bu komut konsola `matrix` yazıldığında serverde olan bütün kullanıcılarda matrix açılır. Kullanıcıların matrix'i kapatması için `Enter` tuşuna basması gerekir.
 > matrix
 
@@ -69,23 +59,26 @@ Bu komut konsola `matrix` yazıldığında serverde olan bütün kullanıcılard
 [resim2]: https://i.hizliresim.com/nyV9ag.png
 
 
-### Color Komutu
-`color **metin**` color yazısından sonra gelen yazıyı(metin) renkli yazar.
+- ### Color Komutu
+`color *metin*` color yazısından sonra gelen yazıyı(metin) renkli yazar.
 > color Hello World!..
 > 
 ![alt yazı][resim3]
 
 [resim3]: https://i.hizliresim.com/zyvO1D.png
 
-### Shake Komutu
+- ### Shake Komutu
  `shake` komutu serverde olan kişilerin hepsinin konsolu sallanır.
 
-### asd Komutu
+- ### asd Komutu
 `asd` komutu size komik bir espri yapar.
 > - asd 1
 > - asd 2
 > - asd 3
 > - asd 4
 > - asd 5
+
+
+* **Devamı Gelecek...**
 
 
