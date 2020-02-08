@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <None Remove="AppIcon.ico" />
+    <None Remove="audio\anektar.mp3" />
     <None Remove="audio\Beyin bedava.mp3" />
     <None Remove="audio\closed-hat-trimmed.wav" />
     <None Remove="audio\crash-trimmed.wav" />
@@ -27,12 +28,14 @@
     <None Remove="audio\receb ivedikden kulak cinlamasi.mp3" />
     <None Remove="audio\sezai-ogul.mp3" />
     <None Remove="audio\snare-trimmed.wav" />
+    <None Remove="audio\tatata.mp3" />
     <None Remove="audio\Taumata.mp3" />
     <None Remove="Settings.StyleCop" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="AppIcon.ico" />
+    <EmbeddedResource Include="audio\anektar.mp3" />
     <EmbeddedResource Include="audio\Beyin bedava.mp3" />
     <EmbeddedResource Include="audio\closed-hat-trimmed.wav" />
     <EmbeddedResource Include="audio\crash-trimmed.wav" />
@@ -45,6 +48,7 @@
     <EmbeddedResource Include="audio\receb ivedikden kulak cinlamasi.mp3" />
     <EmbeddedResource Include="audio\sezai-ogul.mp3" />
     <EmbeddedResource Include="audio\snare-trimmed.wav" />
+    <EmbeddedResource Include="audio\tatata.mp3" />
     <EmbeddedResource Include="audio\Taumata.mp3" />
   </ItemGroup>
 

@@ -45,6 +45,8 @@ Bazı play komutları;
 > - play 6
 > - play 7
 > - play 8
+> - play 9
+> - play 10
 
 
 - ### Open Komutu
