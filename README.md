@@ -33,7 +33,9 @@ Bu komut ise `style *msj*` şeklinde kullanılır. Bu komutu yazdığınızda ya
 [fotograf]: https://i.hizliresim.com/gbzvR2.png    
 
 - ### Play Komutu
-`play` komutu sistemde var olan ses kayıtlarını çalar. Bazı play komutları;
+`play` komutu sistemde var olan ses kayıtlarını bütün kullanıcılarda çalar. 
+
+Bazı play komutları;
 > - play 0, Yürütülen ses kaydını kapatır.
 > - play 1
 > - play 2
