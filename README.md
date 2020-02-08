@@ -4,22 +4,22 @@
 ## 1- Nick Komutu
 Uygulamanın ilk komutu `nick` komutudur. Bu komut yeni nick oluşturmanızı sağlar.
 
-
+        
 
 ## 2- Clear Komutu
 Bu komut konsolda var olan yazıların hepsini siler.
 
-
-
+           
+ 
 ## 3- Style Komutu
 Bu komut ise `style Hello World!` şeklinde kullanılır. Bu komutu yazdığınızda yazınızı şekil şukul yazar.
 
-
+          
 
 ## 4- Check Komutu
 Bu komut ise konsola yazdığınız bir sayıyı asal olup olmadığını kontrol eder.
 
-
+              
 
 ## 5- Play Komutu
 Bu komut ise sistemde var olan ses kayıtlarını çalar. Bazı play komutları;
