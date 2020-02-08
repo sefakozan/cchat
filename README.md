@@ -1,28 +1,31 @@
-## CChat (Console Chat Application)
-> CChat, birden çok kullanıcının aynı servere bağlanıp konuştuğu basit bir mesajlaşma uygulamasıdır. CChat sayesinde birden fazla özellik olup, hem siz hem de aynı serverde olan kişilerle beraber eğleneceğiniz ve kullanacağınız bir takım özellik bulunduran uygulamadır. CChat'deki bazı komutlar;
+# CChat (Console Chat Application)
+> CChat, birden çok kullanıcının aynı servere bağlanıp Firebase üzerinden konuştuğu basit bir mesajlaşma uygulamasıdır. CChat uygulamasının birçok özelliği vardır.
+> **.NET Core Console Chat Application using Firebase**
 
-## 1- Nick Komutu
-Uygulamanın ilk komutu `nick` komutudur. Bu komut yeni nick oluşturmanızı sağlar.
+## CChat Komutları
+
+### Nick Komutu
+`nick *yeninick*` komutu nick'inizi değiştirmenizi sağlar.
 
         
 
-## 2- Clear Komutu
-Bu komut konsolda var olan yazıların hepsini siler.
+### Clear Komutu
+`clear` komutu konsolda var olan yazıların hepsini tüm kullanıcılarda siler.
 
            
  
-## 3- Style Komutu
-Bu komut ise `style Hello World!` şeklinde kullanılır. Bu komutu yazdığınızda yazınızı şekil şukul yazar.
+### Style Komutu
+Bu komut ise `style *msj*` şeklinde kullanılır. Bu komutu yazdığınızda yazınızı şekil şukul yazar.
 
           
 
-## 4- Check Komutu
-Bu komut ise konsola yazdığınız bir sayıyı asal olup olmadığını kontrol eder.
+### Check Komutu
+`check *sayi*` komutu konsola yazdığınız bir sayıyı asal olup olmadığını kontrol eder.
 
               
 
-## 5- Play Komutu
-Bu komut ise sistemde var olan ses kayıtlarını çalar. Bazı play komutları;
+### Play Komutu
+`play` komutu sistemde var olan ses kayıtlarını çalar. Bazı play komutları;
 > - play 0, Yürütülen ses kaydını kapatır.
 > - play 1
 > - play 2
@@ -34,17 +37,27 @@ Bu komut ise sistemde var olan ses kayıtlarını çalar. Bazı play komutları;
 > - play 8
 
 
-## 6- Open Komutu
-Bu komut ise `open <url>` şeklinde kullanılır. Bu komutu kullandığınızda serverde bulunan bütün kişilerde aynı url açılır.
-> open https://github.com/SefaKozan
+### Open Komutu
+Bu komutu kullandığınızda serverde bulunan bütün kişilerde aynı url açılır.
+> open github.com/SefaKozan
 
-## 7- Matrix Komutu
-Bu komut konsola `matrix` yazıldığında server olan bütün kullanıcılarda matrix açılır.
+### Matrix Komutu
+Bu komut konsola `matrix` yazıldığında serverde olan bütün kullanıcılarda matrix açılır. Kullanıcıların matrix'i kapatması için `Enter` tuşuna basması gerekir.
 > matrix
 
-## 8- Color Komutu
-Bu komut ise `color **metin**` color yazısından sonra gelen yazıyı rengarenk konsola yazar.
+### Color Komutu
+`color **metin**` color yazısından sonra gelen yazıyı(metin) renkli yazar.
 > color Hello World!..
 
-## 9- Shake Komutu
-Bu komut ise `shake` serverde olan kişilerin hepsinin konsolu sallanır.
+### Shake Komutu
+ `shake` komutu serverde olan kişilerin hepsinin konsolu sallanır.
+
+### asd Komutu
+`asd` komutu size komik bir espri yapar.
+> - asd 1
+> - asd 2
+> - asd 3
+> - asd 4
+> - asd 5
+
+
