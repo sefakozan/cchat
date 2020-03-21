@@ -22,8 +22,12 @@ namespace CChat
         static CachedSound ivedikden = new CachedSound("receb ivedikden kulak cinlamasi.mp3");
         static CachedSound tata = new CachedSound("tatata.mp3");
         static CachedSound anektarlar = new CachedSound("anektar.mp3");
+        static CachedSound ucgenn = new CachedSound("ucgen.mp3");
+        static CachedSound rteAkdeniz = new CachedSound("akdeniz.mp3");
+        static CachedSound kırkyapar = new CachedSound("40 yapar.mp3");
 
-        static CachedSound[] CachedSounds = new CachedSound[] 
+
+        static CachedSound[] CachedSounds = new CachedSound[]
         {
             msg,
             bombom,
@@ -36,6 +40,10 @@ namespace CChat
             ivedikden,
             tata,
             anektarlar,
+            ucgenn,
+            rteAkdeniz,
+            kırkyapar,
+
         };
 
         public static void PlayAudio(string param, bool isSingle = false)
