@@ -22,6 +22,7 @@ Bu komut ise `style *msj*` şeklinde kullanılır. Bu komutu yazdığınızda ya
   
 
 [resim]: https://i.hizliresim.com/492WQ0.png
+![resim](https://i.hizliresim.com/492WQ0.png)
           
 
 - ### Check Komutu
