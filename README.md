@@ -18,18 +18,11 @@
 Bu komut ise `style *msj*` şeklinde kullanılır. Bu komutu yazdığınızda yazınızı şekil şukul yazar.
 
 
-![alt yazı][resim]
-  
-
-[resim]: https://i.hizliresim.com/492WQ0.png
 ![resim](https://i.hizliresim.com/492WQ0.png)
           
 
 - ### Check Komutu
 `check *sayi*` komutu konsola yazdığınız bir sayıyı asal olup olmadığını kontrol eder.
-
-![alt yazı][fotograf]
-
 
 [fotograf]: https://i.hizliresim.com/gbzvR2.png    
 
