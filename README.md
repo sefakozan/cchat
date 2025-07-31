@@ -1,32 +1,27 @@
-# CChat (Console Chat Application)
-> CChat, birden çok kullanıcının aynı servere bağlanıp Firebase üzerinden konuştuğu basit bir mesajlaşma uygulamasıdır. CChat uygulamasının birçok özelliği vardır.
+# Firebase - Console Chat App
+> Birden çok kullanıcının aynı anda Firebase üzerinden konuştuğu basit bir mesajlaşma uygulamasıdır.
 
-> **.NET Core Console Chat Application using Firebase**
-## CChat Komutları
+## Komutlar
 
-- ### Nick Komutu
-`nick *yeninick*` komutu nick'inizi değiştirmenizi sağlar.
-
+### Nick Komutu
+`nick yeninick` komutu nick'inizi değiştirmenizi sağlar.
         
-
-- ### Clear Komutu
-`clear` komutu konsolda var olan yazıların hepsini tüm kullanıcılarda siler.
-
-           
+### Clear Komutu
+`clear` komutu konsolda var olan yazıların hepsini tüm kullanıcılarda siler.  
  
-- ### Style Komutu
-Bu komut ise `style *msj*` şeklinde kullanılır. Bu komutu yazdığınızda yazınızı şekil şukul yazar.
+### Style Komutu
+Bu komut ise `style msj` şeklinde kullanılır.
 
 
-![resim](https://i.hizliresim.com/492WQ0.png)
+![hello](assets/hello.png)
           
 
-- ### Check Komutu
-`check *sayi*` komutu konsola yazdığınız bir sayıyı asal olup olmadığını kontrol eder.
+### Check Komutu
+`check sayi` komutu konsola yazdığınız bir sayıyı asal olup olmadığını kontrol eder.
 
-![fotograf](https://i.hizliresim.com/gbzvR2.png)    
+![nick](assets/nick.png)    
 
-- ### Play Komutu
+### Play Komutu
 `play` komutu sistemde var olan ses kayıtlarını bütün kullanıcılarda çalar. 
 
 Bazı play komutları;
@@ -40,39 +35,34 @@ Bazı play komutları;
 > - play 7
 > - play 8
 > - play 9
-> - play 10
+> - play 10...
 
-
-- ### Open Komutu
+### Open Komutu
 Bu komutu kullandığınızda serverde bulunan bütün kişilerde aynı url açılır.
-> open github.com/SefaKozan
+> open github.com/sefakozan
 
-- ### Matrix Komutu
-Bu komut konsola `matrix` yazıldığında serverde olan bütün kullanıcılarda matrix açılır. Kullanıcıların matrix'i kapatması için `Enter` tuşuna basması gerekir.
+### Matrix Komutu
+Bu komut konsola `matrix` yazıldığında serverde olan bütün kullanıcılarda matrix açılır.  
+Kullanıcıların matrix'i kapatması için `Enter` tuşuna basması gerekir.
 > matrix
 
-![resim2](https://i.hizliresim.com/nyV9ag.png)
+![matrix](assets/matrix.png)
 
-
-- ### Color Komutu
-`color *metin*` color yazısından sonra gelen yazıyı(metin) renkli yazar.
+### Color Komutu
+`color metin` color yazısından sonra gelen yazıyı(metin) renkli yazar.
 > color Hello World!..
 > 
 
-![resim3](https://i.hizliresim.com/zyvO1D.png)
+![color](assets/color.png)
 
-- ### Shake Komutu
+### Shake Komutu
  `shake` komutu serverde olan kişilerin hepsinin konsolu sallanır.
 
-- ### asd Komutu
-`asd` komutu size komik bir espri yapar.
+### asd Komutu
+`asd` komutu size soğuk bir espri yapar.
 > - asd 1
 > - asd 2
 > - asd 3
 > - asd 4
-> - asd 5
-
-
-* **Devamı Gelecek...**
-
+> - asd 5...
 
