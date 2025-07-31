@@ -11,40 +11,48 @@ namespace CChat
 {
 	public static class Play
 	{
-        static CachedSound msg = new CachedSound("closed-hat-trimmed.wav");
-        static CachedSound bombom = new CachedSound("Komik-Bom-Bom.mp3");
-        static CachedSound tatil = new CachedSound("Komik-15-Tatil-Parodi.mp3");
-        static CachedSound okul = new CachedSound("Komik-Uyan-Okullar-Acildi-Parodi.mp3");
-        static CachedSound nereye = new CachedSound("Nereye Sıçacaklar ( Remix ) - Educatedear.mp3");
-        static CachedSound beyin = new CachedSound("Beyin bedava.mp3");
-        static CachedSound sezaiogul = new CachedSound("sezai-ogul.mp3");
-        static CachedSound taumata = new CachedSound("Taumata.mp3");
-        static CachedSound ivedikden = new CachedSound("receb ivedikden kulak cinlamasi.mp3");
-        static CachedSound tata = new CachedSound("tatata.mp3");
-        static CachedSound anektarlar = new CachedSound("anektar.mp3");
-        static CachedSound ucgenn = new CachedSound("ucgen.mp3");
-        static CachedSound rteAkdeniz = new CachedSound("akdeniz.mp3");
-        static CachedSound kırkyapar = new CachedSound("40 yapar.mp3");
+        static CachedSound[] CachedSounds;
+        static Random random = new Random();
 
-
-        static CachedSound[] CachedSounds = new CachedSound[]
+        static Play()
         {
-            msg,
-            bombom,
-            tatil,
-            okul,
-            nereye,
-            beyin,
-            sezaiogul,
-            taumata,
-            ivedikden,
-            tata,
-            anektarlar,
-            ucgenn,
-            rteAkdeniz,
-            kırkyapar,
+            CachedSound msg = new CachedSound("closed-hat-trimmed.wav");
+            CachedSound bombom = new CachedSound("Komik-Bom-Bom.mp3");
+            CachedSound tatil = new CachedSound("Komik-15-Tatil-Parodi.mp3");
+            CachedSound okul = new CachedSound("Komik-Uyan-Okullar-Acildi-Parodi.mp3");
+            CachedSound nereye = new CachedSound("Nereye Sıçacaklar ( Remix ) - Educatedear.mp3");
+            CachedSound beyin = new CachedSound("Beyin bedava.mp3");
+            CachedSound sezaiogul = new CachedSound("sezai-ogul.mp3");
+            CachedSound taumata = new CachedSound("Taumata.mp3");
+            CachedSound ivedikden = new CachedSound("receb ivedikden kulak cinlamasi.mp3");
+            CachedSound tata = new CachedSound("tatata.mp3");
+            CachedSound anektarlar = new CachedSound("anektar.mp3");
+            CachedSound ucgenn = new CachedSound("ucgen.mp3");
+            CachedSound rteAkdeniz = new CachedSound("akdeniz.mp3");
+            CachedSound kırkyapar = new CachedSound("40 yapar.mp3");
+            CachedSound modem = new CachedSound("modem.wav");
 
-        };
+            Play.CachedSounds = new CachedSound[]
+            {
+                msg,
+                bombom,
+                tatil,
+                okul,
+                nereye,
+                beyin,
+                sezaiogul,
+                taumata,
+                ivedikden,
+                tata,
+                anektarlar,
+                ucgenn,
+                rteAkdeniz,
+                kırkyapar,
+                modem,
+            };
+        }
+
+
 
         public static void PlayAudio(string param, bool isSingle = false)
         {
@@ -54,12 +62,13 @@ namespace CChat
             try
             {
                 int index = Convert.ToInt32(param);
-                selectedCachedSound = CachedSounds[index];
+                selectedCachedSound = Play.CachedSounds[index];
 
             }
             catch
             {
-                selectedCachedSound = CachedSounds[0];
+                int randomIndex = random.Next(0, CachedSounds.Length);
+                selectedCachedSound = Play.CachedSounds[randomIndex];
             }
 
             AudioPlaybackEngine.Instance.PlaySound(selectedCachedSound, isSingle);

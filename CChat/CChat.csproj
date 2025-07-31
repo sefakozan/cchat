@@ -3,9 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <RootNamespace>CChat</RootNamespace>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ApplicationIcon>AppIcon.ico</ApplicationIcon>
-    <AssemblyName>CChat</AssemblyName>
     <StartupObject>CChat.Program</StartupObject>
   </PropertyGroup>
 
@@ -25,6 +24,7 @@
     <None Remove="audio\Komik-15-Tatil-Parodi.mp3" />
     <None Remove="audio\Komik-Bom-Bom.mp3" />
     <None Remove="audio\Komik-Uyan-Okullar-Acildi-Parodi.mp3" />
+    <None Remove="audio\modem.wav" />
     <None Remove="audio\Nereye Sıçacaklar %28 Remix %29 - Educatedear.mp3" />
     <None Remove="audio\open-hat-trimmed.wav" />
     <None Remove="audio\receb ivedikden kulak cinlamasi.mp3" />
@@ -48,6 +48,7 @@
     <EmbeddedResource Include="audio\Komik-15-Tatil-Parodi.mp3" />
     <EmbeddedResource Include="audio\Komik-Bom-Bom.mp3" />
     <EmbeddedResource Include="audio\Komik-Uyan-Okullar-Acildi-Parodi.mp3" />
+    <EmbeddedResource Include="audio\modem.wav" />
     <EmbeddedResource Include="audio\Nereye Sıçacaklar ( Remix ) - Educatedear.mp3" />
     <EmbeddedResource Include="audio\open-hat-trimmed.wav" />
     <EmbeddedResource Include="audio\receb ivedikden kulak cinlamasi.mp3" />

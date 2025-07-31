@@ -140,7 +140,7 @@ namespace CChat
 
         private static async Task RunCChat()
         {
-            Console.Write("nick name:");
+            Console.Write("\nnick name:");
             MyNickName = Console.ReadLine();
 
             var client = new FirebaseClient("https://cchat-d1a44-default-rtdb.europe-west1.firebasedatabase.app/");
