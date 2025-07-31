@@ -142,7 +142,7 @@ namespace CChat
             Console.Write("nick name:");
             MyNickName = Console.ReadLine();
 
-            var client = new FirebaseClient("https://consohbet.firebaseio.com/");
+            var client = new FirebaseClient("https://cchat-d1a44-default-rtdb.europe-west1.firebasedatabase.app/");
             var child = client.Child("messages");
             var observable = child.AsObservable<InboundMessage>();
 
