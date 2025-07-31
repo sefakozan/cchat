@@ -1,5 +1,5 @@
 # Firebase - Console Chat App
-> Birden çok kullanıcının aynı anda Firebase üzerinden konuştuğu basit bir mesajlaşma uygulamasıdır.
+> Birden çok kullanıcının aynı anda Firebase üzerinden konuştuğu konsol mesajlaşma uygulamasıdır.
 
 ## Komutlar
 
