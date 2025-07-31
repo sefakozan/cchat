@@ -24,7 +24,7 @@ Bu komut ise `style *msj*` şeklinde kullanılır. Bu komutu yazdığınızda ya
 - ### Check Komutu
 `check *sayi*` komutu konsola yazdığınız bir sayıyı asal olup olmadığını kontrol eder.
 
-[fotograf]: https://i.hizliresim.com/gbzvR2.png    
+![fotograf](https://i.hizliresim.com/gbzvR2.png)    
 
 - ### Play Komutu
 `play` komutu sistemde var olan ses kayıtlarını bütün kullanıcılarda çalar. 
@@ -51,19 +51,15 @@ Bu komutu kullandığınızda serverde bulunan bütün kişilerde aynı url aç�
 Bu komut konsola `matrix` yazıldığında serverde olan bütün kullanıcılarda matrix açılır. Kullanıcıların matrix'i kapatması için `Enter` tuşuna basması gerekir.
 > matrix
 
-![alt yazı][resim2]
-  
-
-[resim2]: https://i.hizliresim.com/nyV9ag.png
+![resim2](https://i.hizliresim.com/nyV9ag.png)
 
 
 - ### Color Komutu
 `color *metin*` color yazısından sonra gelen yazıyı(metin) renkli yazar.
 > color Hello World!..
 > 
-![alt yazı][resim3]
 
-[resim3]: https://i.hizliresim.com/zyvO1D.png
+![resim3](https://i.hizliresim.com/zyvO1D.png)
 
 - ### Shake Komutu
  `shake` komutu serverde olan kişilerin hepsinin konsolu sallanır.
