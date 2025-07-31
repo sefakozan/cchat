@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>CChat</RootNamespace>
     <TargetFramework>net9.0</TargetFramework>
     <ApplicationIcon>AppIcon.ico</ApplicationIcon>

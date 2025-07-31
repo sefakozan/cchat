@@ -21,7 +21,8 @@ namespace CChat
         {
             //SystemTray.SetSystemTray();
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.Title = "CChat";
+
+            Console.Title = "cchat";
 
             RunCChat().Wait();
         }
@@ -29,7 +30,7 @@ namespace CChat
 
         private static void GelenMesajiEkranaYazWrapper(string nickname, string mesaj) 
         {
-            Task.Run(()=> GelenMesajiEkranaYaz( nickname,  mesaj));
+            Task.Run(()=> GelenMesajiEkranaYaz(nickname,  mesaj));
 
         }
 
